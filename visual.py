@@ -5,7 +5,7 @@ def visualize_vowels(file):
     results = vowel_counter_enhanced(file)
     x = results.keys()
     h = results.values()
-    c = ['blue','yellow']
+    c = ['blue','black']
     plt.bar(x,h,color=c)
     plt.show()
 
